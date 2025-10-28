@@ -18,3 +18,8 @@
     --secondary-100: #FF0000;
     --secondary-200: #FF00004D;
 }
+
+.container {
+    width: 1088px;
+    margin: 0 auto;
+}
