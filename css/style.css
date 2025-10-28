@@ -38,14 +38,16 @@ a {
 /* top-bar */
 .top-bar {
     background-color: #6A6A6A;
-    color: var(--white)
+    color: var(--white);
+
+    position: relative;
 }
 
 .top-bar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    height: 100%;
 }
 
 .top-bar__logo {
@@ -66,12 +68,21 @@ a {
 
 .top-bar__nav-list {
     display: flex;
-    gap: 100px;
+}
+
+.top-bar__nav-list li {
 }
 
 .top-bar__nav-list a {
     font-size: 1rem;
     font-weight: bold;
     color: var(--white);
+    display: inline-block;
+    padding: 2.0625rem 2.5rem;
+    
+}
+
+.top-bar__nav-list a:hover {
+    background-color: var(--white-transparent);
 }
 /* e: top-bar */
