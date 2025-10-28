@@ -1,3 +1,20 @@
 * {
     box-sizing: border-box;
 }
+
+:root {
+    --white: #fff;
+    --white-transparent: #fff30;
+
+    --black: #000;
+    --black-transparent-100: #00060;
+    --black-transparent-200: #00040;
+
+    --grey-100: #6A6A6A;
+    --grey-200: #B2B2B2;
+    --grey-300: #D1D1D1;
+
+    --primary: #28272C;
+    --secondary-100: #FF0000;
+    --secondary-200: #FF00004D;
+}
