@@ -190,3 +190,9 @@ a {
 /*e:  nested column-1 component */
 
 /* e: section component*/
+
+/* blog section */
+.blog {
+    background-color: var(--white);
+}
+/* e: blog section */
