@@ -146,5 +146,47 @@ a {
 }
 /* e: btn */
 
-/* section */
-/* e: section */
+/* section component*/
+.section {
+    padding: 50px 0;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.section__title {
+    text-transform: uppercase;
+}
+
+.section__columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* nested column-1 component */
+.column-1 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.column-1__img {
+
+}
+
+.column-1__title {
+    text-transform: uppercase;
+}
+
+.column-1__text {
+     
+}
+/*e:  nested column-1 component */
+
+/* e: section component*/
