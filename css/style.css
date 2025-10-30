@@ -196,7 +196,6 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    
 }
 
 .column-2__img {
@@ -212,6 +211,12 @@ a {
 }
 /*e:  nested column-2 component */
 
+/* nested column-3 component */
+.column-3 {
+    width: 50%;
+}
+/*e:  nested column-3 component */
+
 /* e: section component*/
 
 /* blog section */
@@ -226,3 +231,9 @@ a {
     background-color: var(--primary-color);
 }
 /* e: blog section */
+
+/* contact section */
+.blog {
+    background-color: var(--white);
+}
+/* e: contact section */
