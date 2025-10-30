@@ -97,7 +97,7 @@ a {
 }
 
 .header .container {
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,3 +145,6 @@ a {
     color: var(--secondary-color-100);
 }
 /* e: btn */
+
+/* section */
+/* e: section */
