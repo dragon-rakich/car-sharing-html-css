@@ -215,14 +215,33 @@ a {
 .column-3 {
     width: 50%;
 }
+
+.column-3 img {
+    width: 100%;
+}
 /*e:  nested column-3 component */
 
 /* e: section component*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input , .form textarea{
+    outline: none;
+}
+
+.form input[type="submit"] {
+    align-self: flex-end;
+}
 
 /* blog section */
 .blog {
     background-color: var(--white);
 }
+
 /* e: blog section */
 
 /* service section */
@@ -230,10 +249,10 @@ a {
     color: white;
     background-color: var(--primary-color);
 }
-/* e: blog section */
+/* e: service section */
 
 /* contact section */
-.blog {
+.contact {
     background-color: var(--white);
 }
 /* e: contact section */
