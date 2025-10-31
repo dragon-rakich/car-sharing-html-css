@@ -276,7 +276,7 @@ a {
 }
 
 .form input:focus, .form textarea:focus {
-    box-shadow: 0px 1px 6px var(--secondary-color-200);
+    box-shadow: 0px 0px 4px var(--secondary-color-100);
     border: 1px solid var(--secondary-color-100);
 }
 
