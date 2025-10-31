@@ -160,6 +160,19 @@ a {
 
 .section__title {
     text-transform: uppercase;
+    font-size: 2.1875rem;
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+.section__title::before, .section__title::after {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: var(--secondary-color-100);
+    position: relative;
+    top: 50%;
 }
 
 .section__columns {
@@ -173,7 +186,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 40px;
 }
 
 .column-1__img {
@@ -182,10 +195,20 @@ a {
 
 .column-1__title {
     text-transform: uppercase;
+    color: var(--grey-100);
+    font-size: 1.1875em;
+    font-weight: normal;
+    line-height: 1.625rem;
 }
 
 .column-1__text {
-     
+    font-family: var(--secondary-font), sans-serif;
+    color: var(--grey-100);
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 1.1875rem;
+    width: 260px;
+
 }
 /*e:  nested column-1 component */
 
@@ -242,12 +265,20 @@ a {
     background-color: var(--white);
 }
 
+.blog .section__columns {
+    gap: 20px;
+}
+
 /* e: blog section */
 
 /* service section */
 .service {
     color: white;
     background-color: var(--primary-color);
+}
+
+.service .section__columns {
+    gap: 10px;
 }
 /* e: service section */
 
