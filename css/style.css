@@ -94,10 +94,11 @@ a {
     background-size: cover;
 
     color: var(--white);
+    /* position: relative; */
 }
 
 .header .container {
-    min-height: 95vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,6 +126,19 @@ a {
     display: flex;
     gap: 25px;
 }
+
+.header__arrow-down img {
+    display: block;
+    margin: 0 auto;
+    padding: 17px 17px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 27.5px;
+    background-color: var(--secondary-color-100);
+}
+
+.header__arrow-down a {display: block;}
 /* e: header */
 
 /* btn */
