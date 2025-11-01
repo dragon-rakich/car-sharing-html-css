@@ -199,7 +199,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0;
 }
 
 .section__title {
@@ -208,8 +207,6 @@ a {
     font-weight: bold;
     line-height: 47px;
     margin-bottom: 35px;
-
-
 }
 
 .section__title::before, .section__title::after {
@@ -339,6 +336,7 @@ a {
     display: flex;
     gap: 10px;
     cursor: pointer;
+    color: var(--grey-200);
 }
 
 .form input[type="checkbox"] {
@@ -382,6 +380,8 @@ a {
 /* blog section */
 .blog {
     background-color: var(--white);
+    padding-top: 91px;
+    padding-bottom: 100px;
 }
 
 .blog .section__columns {
@@ -394,6 +394,12 @@ a {
 .service {
     color: white;
     background-color: var(--primary-color);
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.service .section__title {
+    margin-bottom: 75px;
 }
 
 .service .section__columns {
@@ -404,6 +410,8 @@ a {
 /* contact section */
 .contact {
     background-color: var(--white);
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 .contact .section__columns {
