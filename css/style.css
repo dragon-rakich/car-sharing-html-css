@@ -307,6 +307,41 @@ a {
 
 .form__checkbox-field {
     display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.form input[type="checkbox"] {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.form__custom-checkbox {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 1px solid var(--grey-300);
+    border-radius: 8px;
+    
+    flex-shrink: 0;
+    flex-basis: 22px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__checkbox-field img {
+    width: 12.73px;
+    height: 9.49px;
+    opacity: 0;
+}
+
+.form__checkbox-field input:checked + div img {
+    opacity: 1;
 }
 
 .form input[type="submit"] {
