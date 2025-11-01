@@ -207,6 +207,9 @@ a {
     font-weight: bold;
     line-height: 47px;
     margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .section__title::before, .section__title::after {
@@ -215,9 +218,6 @@ a {
     width: 50px;
     height: 3px;
     background-color: var(--secondary-color-100);
-    position: relative;
-    margin-inline: 10px;
-    margin-bottom: 11px;
     box-shadow: 0px 1px 6px var(--secondary-color-200);
 }
 
