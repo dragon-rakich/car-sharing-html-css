@@ -305,7 +305,7 @@ a {
     resize: none;
 }
 
-form__checkbox-field {
+.form__checkbox-field {
     display: flex;
 }
 
